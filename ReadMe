@@ -1,0 +1,27 @@
+************How to Build and execute************
+To build:
+1. Right click on the project 
+2. Run as "Maven install"
+
+To Execute the testcase:
+
+1. Open "Runner.java" file
+2. Right click on the test runner class and run as "JUnit Test"
+
+************Functional Flow***************
+-->Runner file
+--------------->Feature file
+---------------------------->Step definition file
+--------------------------------------------------> POM.xml (for downloading the dependencies)
+
+Make sure to point proper JDK and JUNIT path in build path:
+
+JDK - 1.8.0_361
+JUNIT 4
+
+**********Registration feature************
+ Make sure to update email id for registration scenario everytime before running as script will be throwing "Email id already exist error"
+ 
+ 
+***********Reports****************
+Cucumber reports can be viewed in "Target/Destination"
